@@ -1,25 +1,25 @@
 ﻿[
   {
-    "title": "Project A",
+    "title": "PersonalExpenses-app",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "A Flutter-based application designed to record, track, and visualize daily expenses.",
+    "skills": ["DART","FLUTTER","MaterialUI","CRUD Operations"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/anuragsahoo1/PersonalExpenses-app"
   },
   {
-    "title": "Project B",
+    "title": "todo-app ",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "description": "A Flutter-based Todo app for efficiently managing daily tasks with a clean and user-friendly interface.",
+    "skills": ["DART","FLUTTER","MaterialUI","CRUD Operations"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/anuragsahoo1/todo-app"
   },
   {
-    "title": "Project C",
+    "title": "GLPI",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "Deployed and configured the GLPI database with backups and performance tuning.",
+    "skills": ["mariaDB","RHEL"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }
