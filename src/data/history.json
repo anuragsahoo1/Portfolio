@@ -1,0 +1,31 @@
+﻿[
+  {
+    "role": "INTERN",
+    "organisation": "The Spark Foundation",
+    "startDate": "SEP, 2022",
+    "endDate": "Present",
+    "experiences": ["Built a ReactJS-based payment interface with Razorpay integration",
+"Implemented secure end-to-end payment flow handling"],
+    "imageSrc": "history/spark.png"
+  },
+  {
+    "role": "DATA ANALYST INTERN",
+    "organisation": "HIGHRADIUS",
+    "startDate": "JAN, 2023",
+    "endDate": "Present",
+    "experiences": ["Top 5% performer during internship training at HighRadius",
+"Built an AI-enabled B2B invoice management system using React, Java, MySQL, and ML"],
+    "imageSrc": "history/highradius.png"
+  },
+  {
+    "role": "LEAD ENGINEER",
+    "organisation": "TPSODL",
+    "startDate": "JULY, 2023",
+    "endDate": "PRESENT",
+    "experiences": [
+      "Worked with MariaDB for database design and data management",
+      "Developed Android applications using Flutter"
+    ],
+    "imageSrc": "history/tpsodl.png"
+  }
+]
