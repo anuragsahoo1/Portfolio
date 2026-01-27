@@ -8,19 +8,23 @@
     "source": "https://github.com/anuragsahoo1/PersonalExpenses-app"
   },
   {
-    "title": "todo-app ",
+    "title": "FintechPayments Analytics Platform",
     "imageSrc": "projects/project.png",
-    "description": "A Flutter-based Todo app for efficiently managing daily tasks with a clean and user-friendly interface.",
-    "skills": ["DART","FLUTTER","MaterialUI","CRUD Operations"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/anuragsahoo1/todo-app"
+    "description": "End-to-End analytics engineering project that ingest raw payment data into Snowflake, transform it using dbt, and delivers KPI-driven executive dashboard in Tableau.",
+    "skills": ["SQ",
+    "Snowflake","dbt","AWS S3",
+    "Tableau",
+    "Analytics Engineering"
+  ],
+    "demo": "https://public.tableau.com/views/Fintech_Payments_Executive_dashboard/Fintech-Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+    "source": "https://github.com/anuragsahoo1/fintech-payments-analytics"
   },
   {
-    "title": "GLPI",
+    "title": "GLPI IT Operation Analytics",
     "imageSrc": "projects/project.png",
-    "description": "Deployed and configured the GLPI database with backups and performance tuning.",
-    "skills": ["mariaDB","RHEL"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Built SQL-driven analytics on GLPi ITSM data focusing on SLA tracking,ticket trends,backlog aging, and KPI reporting with improved data quality and insights",
+    "skills": ["SQL","mariaDB","RHEL","Data Analysis","KPI Design","SLA Metrics","Operational Reporting"],
+    "demo": "Internal Project(Company Confidential",
+    "source": "Not Public"
   }
 ]

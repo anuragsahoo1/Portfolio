@@ -9,8 +9,10 @@ export const Hero = ()=>{
             <h1 className={styles.title}>
                 Hi ,I am Anurag
             </h1>
-            <p className={styles.description}>I’m a Database and Linux Administrator with hands-on experience in ReactJS and Android development. Reach out if you’d like to learn more or collaborate.</p>
-            <a href="sahooanurag56@gmail.com" className={styles.contactBtn}>Contact Me</a>
+            <p className={styles.description}>    Lead Engineer at TPSODL with Experience managing MSSQL SERVER and MariaDB. DATA Analyst intern background with hands-on experience inSQL-driven analysis using Snowflake,AWS S3, and spreadshees. 
+                            Project-based experience with dbt and Tableau to deliver actionable business insights.
+                        </p>
+            <a href="#Contact" className={styles.contactBtn}>Contact Me</a>
         </div>
         <img src={heroImages3} alt="alt-hero" className={styles.heroImg}></img>
         <div className={StyleSheet.topBlur}></div>

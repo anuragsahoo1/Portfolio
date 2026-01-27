@@ -18,10 +18,13 @@ export const About =()=>{
                     <img src={cursorIcon} alt="alt-cursor-icon"></img>
                     <div>
                         <h3>
-                            Android And Flutter Developer
+                            Data Analyst & Specialist
                         </h3>
                         <p>
-                        Application Developer with experience in building responsive android app
+                        Experienced in analyzing large datasets using SQL to generate insights, 
+                        support reporting, and enable data-driven decision making. 
+                        Hands -on experience with Snowflake,spreadsheets, 
+                        and data transformation for analytical use cases
                         </p>
                     </div>
                 </li>
@@ -29,10 +32,12 @@ export const About =()=>{
                     <img src={serverIcon} alt="alt-server-icon"></img>
                     <div>
                         <h3>
-                            DB And Linux Administratror
+                            Database & Data Platform Engineer
                         </h3>
                         <p>
-                        I am experienced db and linux administrator
+                            Lead Engineer at TPSODL with ahnds-on experience managing MS SQL 
+                            Server and MariaDB. Skilled in database administration, query optimization, data reliabilty,
+                            backups, and working with structured enterprise data for analytics and reporting.
                         </p>
                     </div>
                 </li>
@@ -40,11 +45,13 @@ export const About =()=>{
                     <img src={serverIcon} alt="alt-cursor-icon"></img>
                     <div>
                         <h3>
-                            Hypervisor And Openshift 
+                            Cloud & Analytical Tooling
                         </h3>
                         <p>
-                            hands on experience on Cloud.
-                            </p>
+                            Experience working with analytics ecosystems including snowflake, AWS S3, dbt, and Tableau through 
+                            internship and project-based work.Familiar with data pipelines, sloud storage, virtualisation(Hyper-V,VMware ESXi) and 
+                            Linux enviroments supporting analytical workloads.
+                        </p>
                     </div>
                 </li>
                 </ul>

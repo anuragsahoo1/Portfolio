@@ -5,18 +5,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding-top: 65px;
   z-index: 2;
-  margin: 0 10%;
+  margin: 0 7%;
   /* color: ; */
   /* background-color:#4d6ab8 ; */
 }
 
 .title {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 900;
   text-decoration: none;
-  color: var(--color-text);
+  /* color: var(--color-text);
+   */
+   color: rgb(215, 145, 236);
 }
 
 
@@ -36,8 +38,10 @@
 
 .menuItems a {
   font-size: 25px;
-  color: var(--color-text);
+  /* color: var(--color-text);
+   */
   text-decoration: none;
+  color: rgb(215, 145, 236);
 }
 
 @media screen and (max-width: 830px) {

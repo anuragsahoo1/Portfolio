@@ -26,10 +26,20 @@ margin-right: 10%;
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
-    background:linear-gradient(90deg,rgba(255,255,255,1),70%,rgba(255,255,255,0)120%);
+    background:linear-gradient(180deg,rgb(206, 157, 238),90%,rgba(73, 37, 37, 0)120%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    /* background-color: transparent; */
+    opacity: 0;
+      transform: translateY(30px);
+  animation: titleReveal 7s ease-out forwards;
 
+}
+@keyframes titleReveal {
+  to {
+    opacity: 3;
+    transform: translateY(0);
+  }
 }
 .description{
     font-size: 30px;
@@ -38,13 +48,15 @@ margin-right: 10%;
 }
 .contactBtn{
     text-decoration: none;
-    background-color: var(--color-primary);
-    color:var(--color-text);
+    background-color: rgba(50, 141, 141, 0.555);
+    /* color:var(--color-text);
+     */
+     color: azure;
     border-radius: 100px;
     font-size: 30px;
     font-weight: 600;
     padding: 17px 26px;
-    box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 0 4px 0 rgba(231, 84, 153, 0.555);
 }
 .heroImg{
     width: 50%;

@@ -1,61 +1,93 @@
-@import "../vars.css";
+/* Base container */
 .container {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  border-radius: 14px;
+  justify-content: space-between;
+  overflow-y: auto;
+  max-width: 345px;
+  min-height: 520px;
+  height: 650px;
+
+  /* Visuals you already had */
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 345px;
-  height: 650px;
+  padding: 20px 22px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  /* Firefox scrollbar defaults */
+  scrollbar-width: none;                 /* hide by default (FF) */
+  scrollbar-color: transparent transparent;
 }
 
-.image {
-  margin-bottom: 26px;
+/* When user engages, make FF scrollbar thin and visible */
+.container:hover,
+.container:focus-within,
+.container.scrolling {
+  scrollbar-width: thin;                 /* slim bar (FF) */
+  scrollbar-color: rgb(141, 174, 245) transparent; /* thumb over transparent track (FF) */
 }
 
-.title {
-  font-size: 25px;
-  font-weight: 700;
+/* WebKit-based browsers (Chrome, Edge, Safari) */
+.container::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;                           /* for horizontal cases */
+  background-color: transparent;         /* no background */
 }
 
+.container::-webkit-scrollbar-track {
+  background: transparent;               /* fully transparent track */
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: transparent;         /* hidden by default */
+  border-radius: 6px;
+
+  /* Optional: make the "line" slimmer inside the 6px area */
+  background-clip: padding-box;
+  border: 2px solid transparent;         /* creates a thin line appearance when shown */
+}
+
+/* Show the thumb only on hover/focus/scrolling */
+.container:hover::-webkit-scrollbar-thumb,
+.container:focus-within::-webkit-scrollbar-thumb,
+.container.scrolling::-webkit-scrollbar-thumb {
+  background-color: rgb(160, 185, 240);     /* the visible thin thumb line */
+}
+
+/* Optional: smoother feel on Mac-like UIs */
+.container {
+  -ms-overflow-style: none;              /* IE/Edge legacy */
+  /* scrollbar-gutter: stable; */        /* Uncomment if you want layout stability */
+}
+
+/* Your existing atoms (unchanged) */
+.image { margin-bottom: 26px; }
+.title { font-size: 25px; font-weight: 700; }
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 14px;
+  line-height: 1.5;
   font-weight: 400;
+  margin-bottom: 12px;
 }
-
 .skills {
   width: 100%;
   margin-top: 14px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 6px;
-  list-style: none;
+  display: flex; flex-direction: row; flex-wrap: wrap;
+  gap: 6px; list-style: none;
 }
-
 .skill {
-  font-size: 25px;
-  font-weight: 400;
-  border-radius: 100px;
-  background: var(--color-dark);
+  font-size: 25px; font-weight: 400;
+  border-radius: 100px; background: var(--color-dark);
   padding: 2px 22px;
 }
-
 .links {
-  width: 100%;
-  margin-top: 26px;
-  display: flex;
-  justify-content: space-around;
+  width: 100%; margin-top: 26px;
+  display: flex; justify-content: space-around;
 }
-
 .link {
-  text-decoration: none;
-  color: var(--color-text);
-  font-size: 30px;
-  font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 1px 22px;
+  text-decoration: none; color: var(--color-text);
+  font-size: 30px; font-weight: 600; border-radius: 100px;
+  background: var(--color-primary); padding: 1px 22px;
 }

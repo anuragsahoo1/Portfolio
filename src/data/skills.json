@@ -8,23 +8,24 @@
     "imageSrc": "skills/mariaDB.png"
   },
   {
-    "title": "ReactJS",
-    "imageSrc": "skills/react.png"
+    "title": "DBT",
+    "imageSrc": "skills/dbt.png"
   },
-  {
-    "title": "FLutter",
-    "imageSrc": "skills/flutter.png"
-  },
-  {
-    "title": "Supabase",
-    "imageSrc": "skills/supabase.png"
-  },
+  
   {
     "title": "Python",
     "imageSrc": "skills/python.png"
   },
   {
-    "title": "Android",
-    "imageSrc": "skills/android.png"
+    "title": "MSSQL",
+    "imageSrc": "skills/database.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
+  },
+  {
+    "title": "FLutter",
+    "imageSrc": "skills/flutter.png"
   }
 ]

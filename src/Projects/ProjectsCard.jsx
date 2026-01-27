@@ -12,7 +12,8 @@ export const ProjectsCard=({
         className={styles.image}
       />
       <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}</p>
+      
+        <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
         {skills.map((skill, id) => {
           return (
@@ -22,6 +23,7 @@ export const ProjectsCard=({
           );
         })}
       </ul>
+      
       <div className={styles.links}>
         <a href={demo} className={styles.link}>
           Demo
