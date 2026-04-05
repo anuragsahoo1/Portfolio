@@ -1,11 +1,29 @@
 ﻿[
   {
-    "title": "PersonalExpenses-app",
+  "title": "End-to-End Weather Data Pipeline",
+  "imageSrc": "projects/project.png",
+  "description": "Designed and implemented a fully automated end-to-end data pipeline to ingest real-time weather data from an API, store it in AWS S3, load into Snowflake, and transform it using dbt. Orchestrated workflows using Apache Airflow with scheduled runs and built interactive dashboards in Tableau for monitoring weather trends.",
+  "skills": [
+    "Python",
+    "Apache Airflow",
+    "AWS S3",
+    "Snowflake",
+    "dbt",
+    "Tableau",
+    "Data Engineering",
+    "ETL Pipeline",
+    "API Integration"
+  ],
+  "demo": "https://public.tableau.com/views/WeatherMonitoringDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+  "source": "https://github.com/anuragsahoo1/weather-data-pipeline.git"
+},
+  {
+    "title": "Instacart Customer Behavior Analytics",
     "imageSrc": "projects/project.png",
-    "description": "A Flutter-based application designed to record, track, and visualize daily expenses.",
-    "skills": ["DART","FLUTTER","MaterialUI","CRUD Operations"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/anuragsahoo1/PersonalExpenses-app"
+    "description": "End-to-end analytics pipeline using AWS S3, Snowflake, dbt, Airflow, and Tableau to analyze customer ordering patterns, retention, and product demand.",
+    "skills": ["AWS S3","SNOWFLAKE","DBT","TABLEAU","SQL"],
+    "demo": "https://anuragsahoo-instacartdashboard.netlify.app/",
+    "source": "https://github.com/anuragsahoo1/instacart-data-pipeline"
   },
   {
     "title": "FintechPayments Analytics Platform",
@@ -27,4 +45,6 @@
     "demo": "Internal Project(Company Confidential",
     "source": "Not Public"
   }
+
+
 ]

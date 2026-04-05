@@ -9,8 +9,7 @@ export const Hero = ()=>{
             <h1 className={styles.title}>
                 Hi ,I am Anurag
             </h1>
-            <p className={styles.description}>    Lead Engineer at TPSODL with Experience managing MSSQL SERVER and MariaDB. DATA Analyst intern background with hands-on experience inSQL-driven analysis using Snowflake,AWS S3, and spreadshees. 
-                            Project-based experience with dbt and Tableau to deliver actionable business insights.
+            <p className={styles.description}>    Data-driven professional with hands-on experience in SQL-based analytics, database management, and data visualization. Currently working as a Lead Engineer at TPSODL, managing MSSQL Server and MariaDB while performing data analysis to extract insights from large datasets. Experienced in working with Snowflake, AWS S3, and spreadsheets for data processing and reporting. Skilled in building analytics workflows using dbt and developing interactive dashboards in Tableau to support data-driven decision making.
                         </p>
             <a href="#Contact" className={styles.contactBtn}>Contact Me</a>
         </div>
